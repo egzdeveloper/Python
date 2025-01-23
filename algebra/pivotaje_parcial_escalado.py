@@ -62,4 +62,4 @@ matriz_triangular_superior_1 = pivotaje_parcial_escalado(matriz_1)
 # Imprime la matriz triangular superior resultante
 print('\n\n------------------ SOLUCIÓN ---------------------------')
 print("\nMatriz triangular superior resultante:")
-print(np.round(matriz_triangular_superior_1, 2))
+print(np.round(matriz_triangular_superior_1, 2), "\n")
