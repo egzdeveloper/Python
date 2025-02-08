@@ -1,3 +1,4 @@
 /GUI/realtime_chat/server.csr
 /GUI/realtime_chat/server-cert.pem
 /GUI/realtime_chat/server-key.key
+.idea
