@@ -22,7 +22,8 @@ def sniff(interface):
     scapy.sniff(iface=interface, filter="udp and port 53", prn=process_dns_packet, store=False)
 
 def main():
-    sniff('wlp4s0')
+    interface = ''
+    sniff(interface)
 
 if __name__ == '__main__':
     global domains_seen
