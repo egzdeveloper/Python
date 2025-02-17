@@ -17,8 +17,8 @@ def download_tracks(track):
         pass
 
 # Spotify API configuration
-client_id = '843408529c9846899e79b5c0ec4bc1c5'
-client_secret = 'cd6be60dc3f24fb988125212c6c13644'
+client_id = '<ID>'
+client_secret = '<KEY>'
 
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=client_id, client_secret=client_secret))
 print(colored(f"\n[+] Spotify Connected", 'green'))
